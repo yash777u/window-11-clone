@@ -9,12 +9,18 @@ This project is a clone of Windows 11, customized to serve as a portfolio websit
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
+- [Setup](#setup)![Screenshot from 2024-05-02 22-20-53](https://github.com/yash777u/window-11-clone/assets/95225950/d2399dea-a6d0-446f-a920-aea6a938699e)
+![Screenshot from 2024-05-02 22-21-02](https://github.com/yash777u/window-11-clone/assets/95225950/8d2792b9-d345-4e27-83ee-7e1c01ab9baa)
+
+- [Usage](#usage)![Screenshot from 2024-05-02 22-20-45](https://github.com/yash777u/window-11-clone/assets/95225950/d2362ba8-bf1d-41b7-888e-15390088bf4f)
+![Screenshot from 2024-05-02 22-20-40](https://github.com/yash777u/window-11-clone/assets/95225950/eb4a22fe-0b78-4103-b02a-8a7bdf087bbd)
+
 - [Customization](#customization)
 - [License](#license)
 
 ## Demo 
+
+
 
 https://www.linkedin.com/posts/yogesh-kumar-83bb891bb_portfolio-windows11-webdevelopment-activity-7191840999751454720-Arcj?utm_source=share&utm_medium=member_desktop
 
