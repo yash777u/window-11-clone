@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+
+    <title>Windows 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="recyclebin" style="margin-left: 13px; margin-bottom: 5px; margin-top: 7px; cursor: pointer;">
+        <img src="src/recyclebinicon.png" alt="" style="margin-left: 10px; height: 50px;">
+        <p style="height: 5px; font-size: 13px;margin-bottom: 15px; color: white; font-weight: 550;">Recycle Bin</p>
+    </div>
+
+    <div class="edge" style="margin-left: 13px; margin-bottom: 5px; margin-top: 2pc; cursor: pointer;">
+        <img src="src/chromeicon.png" alt="" style="margin-left: -6px; height: 50px;">
+        <p style="height: 5px; font-size: 13px;margin-bottom: 15px; margin-left: 11px; color: white;">Chrome</p>
+    </div>
+
+    <div class="thispc" style="margin-left: 13px; margin-bottom: 5px; margin-top: 2pc; cursor: pointer;">
+        <img src="src/thispc.png" alt="" style="margin-left: 10px; height: 50px;">
+        <p style="height: 5px; font-size: 13px;margin-bottom: 15px; margin-left: 11px; color: white;">Resume</p>
+    </div>
+
+    <div
+        style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); max-width: 300px; margin: auto; text-align: center; font-family: arial; position: fixed; top: 20px; right: 20px; background-color: rgb(253, 253, 253); border-radius: 12px;">
+        <img src="src/yash.png" style="width: 80%">
+        <h1>Yogesh Kumar</h1>
+        <p style="color: grey; font-size: 18px;">MCA Student</p>
+        <p>Let's Connect</p>
+        <p><button onclick="window.location.href = 'https://linktr.ee/yogesh_kumar_002';"
+                style="border: none; outline: 0; display: inline-block; padding: 8px; color: white; background-color: #000; text-align: center; cursor: pointer; width: 100%; font-size: 18px;">Contact</button>
+        </p>
+    </div>
+
+
+
+    <div class=" taskbar">
+        <img id="startbutton" src="src/win.PNG" alt="" style=" cursor: pointer;">
+        <img id="searchbutton" src="src/searchIcon.PNG" alt="" style=" cursor: pointer;">
+        <img id="widgetbutton" src="src/widgetsIcon.PNG" alt="" style=" cursor: pointer;">
+        <img id="fileExplorer" src="src/fileExplorerIcon.png" alt="" style=" cursor: pointer;">
+        <img id="storebutton" src="src/linkedinLogo.png" alt="" style=" cursor: pointer;">
+        <img id="righttaskbar" src="src/taskbarright.PNG" alt="" style=" cursor: pointer;">
+    </div>
+
+    <div class="startmenu">
+        <img id="menu" src="src/startmenu.PNG" alt="">
+    </div>
+
+    <div class="searchmenu">
+        <img id="searchBox" src="src/search.jpg" alt="">
+    </div>
+
+    <div class="widgetMenu">
+        <img id="widgetBox" src="src/widgets.jpg" alt="">
+    </div>
+
+    <div class="fileMenu">
+        <embed id="fileExplorerFrame" src="" type="application/pdf" width="80%" height="800px" />
+    </div>
+
+
+    <div id="imageContainer"
+        style="display: none; width: 900px; height: 570px; margin: 20px auto 0; border-radius: 10px; overflow-y: auto;">
+        <img id="linkedinImage" src="linkedin.png" alt="LinkedIn Logo" style="display: block; width: 100%;">
+    </div>
+
+    <div class="browser">
+        <button id="closebtn" style="color: rgb(252, 248, 248); background-color: rgb(238, 8, 8); width: 60px; height: 30px; font-weight:  800; font-size: 15px; border: none; cursor: pointer;" > X </button>
+        <nav class="site-navigation">
+            <div class="header-container">
+                <a href="#" class="nav-link">
+                    Gmail
+                </a>
+                <a href="#" class="nav-link">
+                    Images
+                </a>
+                <a href="">
+                    <i class=" fa fa-solid fa-flask myflask"></i>
+                </a>
+                <button class="sign-in-btn">
+                    Sign in
+                </button>
+            </div>
+        </nav>
+        <main>
+            <img id="google_image"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20240120152553/social-(1).png">
+    
+            <!-- Search Input Section -->
+            <section class="search-input-section">
+                <div class="search-input-container">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240122040847/search.png"
+                        alt="google-search-btn" class="gsb">
+                    <input type="text" placeholder="Search Google or type a URL" class="search-input">
+                </div>
+    
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240120153531/google-voice.png"
+                    alt="Google Mic" class="mic-icon">
+            </section>
+    
+            <!-- Buttons Section -->
+            <section class="buttons-section">
+                <button class="google-search-btn">
+                    Google Search
+                </button>
+                <button class="feeling-lucky-btn">
+                    I'm Feeling Lucky
+                </button>
+            </section>
+    
+            <div class="customize_size">
+                <i class="fa fa-solid fa-pen"></i>
+                Customize Chrome
+            </div>
+        </main>
+    </div>
+    
+
+
+    <script src="main.js" defer></script>
+
+</body>
+
+</html>
